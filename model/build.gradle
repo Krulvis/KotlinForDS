@@ -1,0 +1,13 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation "org.jetbrains.kotlinx:kotlin-deeplearning-api:$kotlinDlVer"
+    implementation "org.jetbrains.kotlinx:kotlin-deeplearning-onnx:$kotlinDlVer"
+    implementation "org.jetbrains.kotlinx:kotlin-deeplearning-visualization:$kotlinDlVer"
+}
